@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 module.exports = ()=>{
     mongoose.connect(
-        'mongodb://localhost/movie',
+        'mongodb+srv://otabek:otb1997mr@cluster0-1jbek.mongodb.net/test',
         {
             useNewUrlParser:true,
             useUnifiedTopology:true,
